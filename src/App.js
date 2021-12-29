@@ -1,52 +1,28 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
-import Header from './Header';
-import Home from './Home';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Cart from './Cart';
-import LoginPage from './LoginPage';
-import { auth } from './firebase';
-import { useStateValue } from './StateProvider';
+import Download from './components/download/Download';
+import Subscribe from './components/subscribe/Subscribe';
+import Faq from './components/faq/Faq';
+import Features from './components/features/Features';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Navbar from './components/Navbar/Navbar';
+
 
 function App() {
-  const [{}, dispatch] = useStateValue();
-  useEffect(() => {
-    auth.onAuthStateChanged(authUser =>{
-      console.log("user is", authUser);
-      if(authUser){
-        //the user logged in
-        dispatch({
-          type: 'SET_USER',
-          user: authUser
-        })
-      } else{
-        //user logged out
-        dispatch({
-          type: 'SET_USER',
-          user: null
-        })
-      }
-    })
-  },[])
   return (
-    <Router>
-      <div className="App">
-        <Switch>
-          <Route path="/login">
-            <LoginPage/>
-          </Route>
-          <Route exact path="/">
-          <Header/>
-          <Home/>
-          </Route>
-          <Route path="/cart">
-            <Header/>
-            <Cart/>
-          </Route>
-        </Switch>
-    </div>
-    </Router>
-  );
+    <main>
+      <header className="header-bg">
+        <Navbar/>
+        <Header/>
+      </header>
+      <Features/>
+      <Download/>
+      <Subscribe/>
+      <Faq/>
+      <Footer/>
+    </main>
+  )
 }
 
 export default App;
