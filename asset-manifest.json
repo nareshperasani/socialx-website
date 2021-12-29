@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/socialx-website/static/css/main.6a79805a.chunk.css",
+    "main.js": "/socialx-website/static/js/main.299788f5.chunk.js",
+    "main.js.map": "/socialx-website/static/js/main.299788f5.chunk.js.map",
+    "runtime-main.js": "/socialx-website/static/js/runtime-main.967665e2.js",
+    "runtime-main.js.map": "/socialx-website/static/js/runtime-main.967665e2.js.map",
+    "static/css/2.30fbed10.chunk.css": "/socialx-website/static/css/2.30fbed10.chunk.css",
+    "static/js/2.3d700ae6.chunk.js": "/socialx-website/static/js/2.3d700ae6.chunk.js",
+    "static/js/2.3d700ae6.chunk.js.map": "/socialx-website/static/js/2.3d700ae6.chunk.js.map",
+    "index.html": "/socialx-website/index.html",
+    "static/css/2.30fbed10.chunk.css.map": "/socialx-website/static/css/2.30fbed10.chunk.css.map",
+    "static/css/main.6a79805a.chunk.css.map": "/socialx-website/static/css/main.6a79805a.chunk.css.map",
+    "static/js/2.3d700ae6.chunk.js.LICENSE.txt": "/socialx-website/static/js/2.3d700ae6.chunk.js.LICENSE.txt",
+    "static/media/phone-features.fdadf84e.png": "/socialx-website/static/media/phone-features.fdadf84e.png",
+    "static/media/phone-header-bg.c0ca1798.png": "/socialx-website/static/media/phone-header-bg.c0ca1798.png",
+    "static/media/Subscribe.css": "/socialx-website/static/media/subscribe-bg.66bb18fc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.967665e2.js",
+    "static/css/2.30fbed10.chunk.css",
+    "static/js/2.3d700ae6.chunk.js",
+    "static/css/main.6a79805a.chunk.css",
+    "static/js/main.299788f5.chunk.js"
+  ]
+}
